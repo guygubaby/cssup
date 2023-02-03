@@ -7,6 +7,7 @@ specifiers:
   bumpp: ^8.2.1
   cac: ^6.7.14
   chokidar: ^3.5.3
+  colorette: ^2.0.19
   eslint: ^8.33.0
   lightningcss: ^1.18.0
   picocolors: ^1.0.0
@@ -27,6 +28,7 @@ devDependencies:
   bumpp: 8.2.1
   cac: 6.7.14
   chokidar: 3.5.3
+  colorette: 2.0.19
   eslint: 8.33.0
   picocolors: 1.0.0
   tsup: 6.5.0_typescript@4.9.5
@@ -999,6 +1001,10 @@ packages:
 
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    dev: true
+
+  /colorette/2.0.19:
+    resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
     dev: true
 
   /commander/4.1.1:

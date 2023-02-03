@@ -3,7 +3,7 @@ import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { basename, resolve } from 'node:path'
 import { transform as cssTransformer } from 'lightningcss'
-import { cyan, green, magenta, yellow } from 'picocolors'
+import { cyan, green, magenta, yellow } from 'colorette'
 import type { Options } from './types'
 
 const cwd = process.cwd()
