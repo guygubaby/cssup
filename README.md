@@ -4,8 +4,23 @@
 
 ## Get Started
 
+### Install
+
 ```bash
 pnpm i @bryce-loskie/cssup -D
+```
+
+### In `cssup.config.ts`
+
+```ts
+import { defineConfig } from '@bryce-loskie/cssup'
+
+export default defineConfig({
+  entryPoints: './src/index.css',
+  outputDir: 'dist',
+  minify: false,
+  sourceMap: true,
+})
 ```
 
 ## License
