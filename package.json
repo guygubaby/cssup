@@ -59,7 +59,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "lightningcss": "^1.18.0"
+    "lightningcss": "^1.18.0",
+    "unconfig": "^0.3.7"
   },
   "devDependencies": {
     "@bryce-loskie/eslint-config": "^2.0.12",
