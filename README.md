@@ -1,11 +1,11 @@
-# ts-starer
+# cssup
 
-[![NPM version](https://img.shields.io/npm/v/[name]?color=a1b858&label=)](https://www.npmjs.com/package/[name])
+[![NPM version](https://img.shields.io/npm/v/@bryce-loskie/cssup?color=a1b858&label=)](https://www.npmjs.com/package/@bryce-loskie/cssup)
 
 ## Get Started
 
 ```bash
-npx degit guygubaby/ts-starter [local-folder]
+pnpm i @bryce-loskie/cssup -D
 ```
 
 ## License
