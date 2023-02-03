@@ -7,6 +7,7 @@ it('should loadConfig fn works', async () => {
     {
       "entryPoints": "./src/index.css",
       "minify": false,
+      "outputDir": "dist",
       "sourceMap": true,
     }
   `)
