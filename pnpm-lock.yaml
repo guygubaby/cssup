@@ -6,11 +6,9 @@ specifiers:
   '@types/node': ^18.11.18
   bumpp: ^8.2.1
   cac: ^6.7.14
-  chokidar: ^3.5.3
   colorette: ^2.0.19
   eslint: ^8.33.0
   lightningcss: ^1.18.0
-  picocolors: ^1.0.0
   tsup: ^6.5.0
   tsx: ^3.12.2
   typescript: ^4.9.5
@@ -27,10 +25,8 @@ devDependencies:
   '@types/node': 18.11.18
   bumpp: 8.2.1
   cac: 6.7.14
-  chokidar: 3.5.3
   colorette: 2.0.19
   eslint: 8.33.0
-  picocolors: 1.0.0
   tsup: 6.5.0_typescript@4.9.5
   tsx: 3.12.2
   typescript: 4.9.5
