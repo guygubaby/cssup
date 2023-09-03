@@ -1,10 +1,11 @@
+import process from 'node:process'
 import { cac } from 'cac'
 import { version } from '../package.json'
 import { build } from './utils'
 import { loadConfig } from './config'
 import type { CliOptions } from './types'
 
-export const startCli = async (argv = process.argv, options: CliOptions = {}) => {
+export async function startCli(argv = process.argv, options: CliOptions = {}) {
   const cli = cac('cssup')
 
   cli

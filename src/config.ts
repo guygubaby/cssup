@@ -6,7 +6,7 @@ import type { Options } from './types'
  */
 export const defineConfig = (options: Options) => options
 
-export const loadConfig = async () => {
+export async function loadConfig() {
   const { config } = await loadConfigFn<Options>({
     sources: [
       {

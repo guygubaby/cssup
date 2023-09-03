@@ -1,3 +1,6 @@
 {
-  "extends": "@bryce-loskie/tc/lib"
+  "extends": "@bryce-loskie/tc/lib",
+  "exclude": [
+    "bin"
+  ]
 }

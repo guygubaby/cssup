@@ -1,6 +1,6 @@
 import type { TransformOptions } from 'lightningcss'
 
-type ExtraOptions = Omit<TransformOptions, 'filename' | 'code'>
+type ExtraOptions = Omit<TransformOptions<any>, 'filename' | 'code'>
 
 export type Options = {
   entryPoints: string[] | string

@@ -1,4 +1,6 @@
 /* eslint-disable no-console */
+import { Buffer } from 'node:buffer'
+import process from 'node:process'
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { basename, resolve } from 'node:path'
@@ -8,7 +10,7 @@ import type { Options } from './types'
 
 const cwd = process.cwd()
 
-const preflight = async (outDir: string) => {
+async function preflight(outDir: string) {
   const destDir = resolve(cwd, outDir)
 
   if (existsSync(destDir))
@@ -16,13 +18,13 @@ const preflight = async (outDir: string) => {
   await mkdir(destDir)
 }
 
-const calcFileSize = (file: string) => {
+function calcFileSize(file: string) {
   const size = Buffer.byteLength(file, 'utf-8')
   const kb = (size / 1024).toFixed(2)
   return `${kb} KB`
 }
 
-export const build = async (options?: Options) => {
+export async function build(options?: Options) {
   const { entryPoints, outputDir = 'dist', ...extra } = options || {}
   if (!entryPoints)
     throw new Error('No entries provided')
